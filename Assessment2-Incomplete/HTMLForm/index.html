@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>Sweepstakes</title>
+        <link rel="stylesheet" href="styles/main.css">
+        <script src="http://localhost:35729/livereload.js"></script>
+    </head>
+
+    <body>
+        <div class="main">
+            <div class="nav">
+                <div class="main-title">
+                    <h1>Bioplex</h1>
+                    <h2>Fusce a congue nunc. Proin iaculis accumsan mi, eget sodales orci.</h2>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Recipes</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <div class="search">
+                        <input type="search" />
+                        <button>Search</button>
+                    </div>
+                </div>
+            </div>
+            <div class="form-header">
+                <div class="info">
+                    <h1>Blender Sweepstakes</h1>
+                    <img src="images/blender.jpg" />
+                    <p>
+                        You are about to enter to win a brand new Bioplex SuperMax 1900. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh
+                        elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.
+                        Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent
+                        per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia
+                        nunc.
+                    </p>
+                </div>
+                <form id="myForm">
+                  <div class="input-group">
+                      <span class="error requiredMsg1">First Name is required</span>
+                      <label for="firstName">First Name</label>
+                      <input type="text" name="firstName" id="firstName" placeholder="First Name" />
+                  </div>
+                  <div class="input-group">
+                      <span class="error requiredMsg2">Last Name is required</span>
+                      <label for="lastName">Last Name</label>
+                      <input type="text" name="lastName" id="lastName" placeholder="Last Name" />
+                  </div>
+                  <div class="input-group">
+                      <span class="error requiredMsg3">Email is required</span>
+                      <span class="error emailMsg">Valid email is required</span>
+
+                      <label for="emailAddress">Email Address</label>
+                      <input type="text" name="emailAddress" id="emailAddress" placeholder="Email Address" />
+                  </div>
+                  <div class="input-group">
+                       <span class="error requiredMsg4">You must tell us!</span>
+                       <label for="howDidYou">How did you find us?</label>
+                       <select id="howDidYou">
+                           <option value=""></option>
+                           <option>A friend</option>
+                           <option>A website</option>
+                           <option>Joe Rogan told me</option>
+                           <option>My dog told me</option>
+                       </select>
+                   </div>
+                   <div class="input-group">
+                     <span class="error requiredMsg5">Do you even blend, bro?</span>
+                     <p>
+                       <label>Why do you need this blender?</label>
+                       <textarea id="myTextArea"
+                         rows = "3"
+                         cols = "80">For smoothies?</textarea>
+                       </p>
+                   </div>
+                   <div class="check-group">
+                       <span class="error requiredMsg6">ACCEPT OR DIE!</span>
+                       <label for="terms">
+                       <input type="checkbox" name="terms" id="terms"/>
+                           Accept Terms and Conditions</label>
+                   </div>
+                </form>
+                <section class="control-panel">
+                    <button id="btnSubmit">Submit</button>
+                    <button id="btnReset">Reset</button>
+                </section>
+                <span id="successMsg">Success!  Now we own you!</span>
+            </div>
+            <div class="footer">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Recipes</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="scripts/main.js"></script>
+    </body>
+
+</html>

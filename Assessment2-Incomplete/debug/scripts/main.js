@@ -131,10 +131,14 @@ console.log('-----------------------------');
     console.log(foo) // Outputs 13
 */
 
-    function sumArray(total, num) {
-    return total + num;
+    function sumArray(array) {
+    var sum = 0;
+    for (var i = 0; i < array.length; i++){
+      sum += array[i];
+    }
+    return sum;
 }
-    console.log(foo);
+
 
 // Uncomment this to test sumArray function
 console.log('-------------  SUM ARRAY ----------------');
@@ -218,7 +222,7 @@ console.log(newD); //outputs Thu Jan 11 2001 00:00:00 GMT-0600 (Central Standard
 */
 
  function sortArray(array){
-   array.sort(function(a,b){return a-b});
+    return array.sort();
  }
 
 //Uncomment this to test sortArray function

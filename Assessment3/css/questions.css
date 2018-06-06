@@ -1,0 +1,41 @@
+/*
+    Q1 - Write a media query for desktop first.  The break point needs to be at 960px;
+*/
+body {
+  background: green;
+}
+
+@media (max-width: 960px) {
+  body {
+    background: red;
+  }
+}
+
+
+/*
+    Q2 - Write a media query for mobile first.  The break point needs to be at 720px;
+*/
+
+body {
+  background: red;
+}
+
+@media (min-width: 720px) {
+  body {
+    background: green;
+  }
+}
+
+/*
+    Q3 - What CSS property are you having the most trouble figuring out?
+*/
+
+Parent and child relationships.  Being able to grab html elements w/ CSS selectors is just not my strong suit.
+
+/*
+    Q4 - What is the best CSS property and why?
+*/
+
+I could be lame and say display, because you absolutely need that.
+But w/ the continued usage of mobile devices, media queries seem like the most important property,
+and most powerful property, that CSS has to offer.
